@@ -14,7 +14,8 @@
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts --fix --ignore-path .gitignore",
     "style": "prettier --check src/",
     "style:fix": "prettier --write src/",
-    "tls": "npm run type-check && npm run test && npm run lint && (npm run style || npm run style:fix)"
+    "tls": "npm run type-check && npm run test && npm run lint && (npm run style || npm run style:fix)",
+    "dev": "vite  --force"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
@@ -24,6 +25,7 @@
     "@fullcalendar/list": "^6.1.7",
     "@fullcalendar/timegrid": "^6.1.7",
     "@fullcalendar/vue3": "^6.1.6",
+    "@highcharts/map-collection": "2.3.0",
     "@popperjs/core": "^2.11.6",
     "@vorms/core": "^1.1.0",
     "@vorms/resolvers": "^1.1.0",
@@ -31,10 +33,11 @@
     "@vueuse/core": "^9.13.0",
     "axios": "^1.6.0",
     "bootstrap": "5.2.3",
-    "highcharts": "^11.0.1",
+    "highcharts": "^11.4.8",
     "highcharts-vue": "^1.4.0",
     "lodash-es": "^4.17.21",
     "pinia": "^2.0.32",
+    "proj4": "^2.14.0",
     "query-string": "^8.1.0",
     "sass": "^1.58.3",
     "sortablejs": "^1.15.0",
